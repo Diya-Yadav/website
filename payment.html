@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>💳 Payment Page</h1>
+        <nav>
+            <a class="nav-btn" href="index.html">🏠 Home</a>
+        </nav>
+    </header>
+    <main>
+        <form class="form-box" action="index.html" method="post">
+            <label for="account">🏦 Account Number:</label>
+            <input type="text" id="account" name="account" required><br>
+            <label for="expiry">📆 Expiry Date:</label>
+            <input type="month" id="expiry" name="expiry" required><br>
+            <label for="pin">🔐 PIN:</label>
+            <input type="password" id="pin" name="pin" required><br>
+            <label for="holder">👤 Account Holder:</label>
+            <input type="text" id="holder" name="holder" required><br>
+            <button type="submit">✅ Confirm Payment</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 CityCare Hospital. All rights reserved.</p>
+    </footer>
+</body>
+</html>
