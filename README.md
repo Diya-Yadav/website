@@ -14,3 +14,6 @@ To understand and implement basic cloud hosting by launching an EC2 instance and
 
  GitHub Repository:
  Diya-Yadav/website
+
+Live Demo:
+ https://diya-yadav.github.io/website/
